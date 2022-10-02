@@ -1,18 +1,22 @@
 mark {
-  background: #ddd;
-  color: #300000;
+  background: #317;
+  color: hotpink;
 }
 
 ::selection {
-  background: forestgreen;
-  color: black;
+  background: darkorchid;
+  color: seashell;
 }
 
 :root {
-  background: coral;
-  color: #300000;
+  background: lavender;
+  color: #321;
 }
 
 :any-link {
-  color: #300000;
+  color: #317;
+}
+
+@media (prefers-contrast: more) {
+  :root { background: seashell }
 }
