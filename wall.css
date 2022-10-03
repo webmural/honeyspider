@@ -31,16 +31,25 @@ main {
 
 figure {
   margin: auto;
-  margin-block-end: 20vh;
+  margin-block-end: 10vh;
 }
 
 figure {
   margin: auto;
-  margin-block-end: 20vh;
+  margin-block-end: 10vh;
 }
 
 figcaption {
   display: flex;
   flex-wrap: wrap;
   margin-block-end: 30vh;
+}
+
+q {
+  display: table;
+  quotes: "((" "))";
+}
+
+.wah {
+  letter-spacing: 1ex;
 }
